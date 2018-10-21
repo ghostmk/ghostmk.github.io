@@ -1,1 +1,3 @@
+'''
 # https://ghostmk.github.io
+'''
