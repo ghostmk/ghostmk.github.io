@@ -52,15 +52,15 @@ $(document).ready(function() {
 
 
   $(window).scroll(function() {
-    // var scroll = 0 //$(window).scrollTop();
-    // if (scroll >= -1) {
+     var scroll = 0 //$(window).scrollTop();
+     if (scroll >= -1) {
       $("#main-nav, #main-nav-subpage")//.slideDown();
       $("#main-nav-subpage").removeClass('subpage-nav');
-    // } else {
-      // $("#main-nav").slideUp(700);
-      // $("#main-nav-subpage").hide();
-      // $("#main-nav-subpage").addClass('subpage-nav');
-    // }
+     } else {
+      $("#main-nav").slideUp(700);
+      $("#main-nav-subpage").hide();
+      $("#main-nav-subpage").addClass('subpage-nav');
+     }
   });
 
   // ========================================================================= //
